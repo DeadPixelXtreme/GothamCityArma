@@ -4,6 +4,7 @@ GenericWorldEntity world {
  boundMaxs 2148 39.625 2148
  blockSize 100 1500 100
  SkyPreset "{8E9BEF90CAA7CAEC}Terrains/Common/Sky/SkyBox/SkyColor_Default.emat"
+ CloudsPreset "{D3683C927920C51D}Terrains/Common/Sky/Clouds/Clouds_Volumetric.emat"
  OceanMaterial "{5BD82BC098CB7A2C}Terrains/Common/Water/Ocean/ocean.emat"
  OceanSimulation "{824449EC2DE478DD}Terrains/Common/Water/Ocean/Simulation/oceanSimIsland.emat"
 }
@@ -14,7 +15,7 @@ GenericWorldPPEffect {
  coords 695.588 9.521 741.869
 }
 CameraManager CameraManager1 {
- coords 193.274 6.558 557.333
+ coords 363.647 6.316 578.795
 }
 TimeAndWeatherManagerEntity {
  coords 571.4 8.032 729.612
@@ -31,4 +32,139 @@ EnvironmentProbeEntity {
  Rendering 63
  InteriorProbe 1
  CaptureLights 1
+}
+$grp GenericEntity {
+ TaiStBridge {
+  components {
+   MeshObject "{596EA807E10F6581}" {
+    Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+   }
+  }
+  coords 891.032 2.587 732.791
+  angleX -1.017
+  angleY -137.689
+  angleZ -11.917
+  scale 2
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 73.903 -14.908 -1.846
+     angleX 0.386
+     angleY -177.981
+     angleZ -19.627
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 61.644 -10.53 -1.465
+     angleX 0.251
+     angleY -178.426
+     angleZ -12.165
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 49.108 -7.811 -1.068
+     angleX 0.251
+     angleY -178.426
+     angleZ -12.165
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 36.57 -5.091 -0.735
+     angleX 0.251
+     angleY -178.426
+     angleZ -12.165
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 25.544 -2.713 -0.409
+     angleX 0.251
+     angleY -178.426
+     angleZ -12.165
+    }
+   }
+  }
+ }
+ OdmarkDrBridge {
+  components {
+   MeshObject "{596EA807E10F6581}" {
+    Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+   }
+  }
+  coords 620.261 8.854 576.674
+  angleX -1.449
+  angleY 30.466
+  angleZ -0.171
+  scale 2
+  {
+   $grp GenericEntity {
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords 25.543 -2.733 0.304
+     angleX -0.087
+     angleY 178.409
+     angleZ -12.167
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords -49.865 -1.726 0.054
+     angleX 0.039
+     angleY 0.463
+     angleZ -7.464
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords -36.952 -0.032 0.029
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords -24.119 -0.016 -0.011
+    }
+    {
+     components {
+      MeshObject "{596EA807E10F6581}" {
+       Object "{1629390F5771CFA3}Assets/Structures/Infrastructure/Bridges/ConcreteBridge_01/ConcreteBridge_01_Narrow.xob"
+      }
+     }
+     coords -11.285 -0.001 0.012
+    }
+   }
+  }
+ }
 }
